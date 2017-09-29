@@ -1,0 +1,271 @@
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
+*{
+  font-family: Source Sans Pro;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.clearfix{
+  clear: both;
+}
+
+nav{
+  background-color:  #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 15px 0;
+  height: auto;
+}
+
+nav a{
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.nav-left{
+  font-size: 1em;
+  display: inline-block;
+  height: 100%;
+  margin: 5px 0 5px 20px;
+}
+
+.nav-links{
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  height: 100%;
+}
+
+.nav-link-li{
+  display: inline-block;
+  margin: 0 10px;
+  list-style: none;
+  font-size: 1em;
+  float: right;
+}
+
+.header-top{
+  background-color: rgb(32, 101, 136);
+  color: white;
+  height: 30%;
+  width: 100%;
+  margin: 0;
+}
+
+.nmp-logo{
+  background-color: rgb(32, 101, 136);
+  height: 5%;
+  width: 10%;
+  margin: 10px;
+  float: left;
+}
+
+.header-busq{
+  background: rgb(31, 82, 111);
+	height: 40px;
+	width: 60%;
+  margin: 13px 0px 10px 40px;
+  border: 10px;
+  padding: 15px;
+  float: left;
+}
+
+.header-button{
+  background: rgb(31, 82, 111);
+  color: rgb(191, 201, 202);
+  height: 40px;
+	width: 5%;
+  margin: 13px 20px 0 10px;
+  border: 10px;
+  float: left;
+}
+
+.txt-head-top{
+  width: 10%;
+  margin: 25px 5px 25px 20px;
+  float: left;
+}
+
+.header-link{
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+
+.bear-logo{
+  height: 40px;
+  width: 40px;
+  margin: 15px 0px;
+  padding: 0;
+  border: 0px;
+  float: none;
+}
+
+.header-bottom{
+  background-color: rgb(32, 101, 136);
+  background-image: url('/home/ro/prework/Modulo3/lab-html-module-exercise-master/starter-code/images/city-scape.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  color: white;
+  height: 70%;
+  width: 100%;
+  margin: 0;
+}
+
+.header-content{
+  width: 35%;
+  margin: 0 70px;
+  padding-top: 30px;
+}
+
+.sign-header-button{
+  background-color: rgb(240, 146, 51);
+  color: white;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 120px;
+  margin: 40px auto 60px auto;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+}
+
+.orgs{
+  background-color: rgb(39, 53, 71);
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.org-img{
+  width: 30%;
+  margin-left: 50px;
+  margin-right: 300px;
+  padding: 50px 0;
+  float: left;
+}
+
+.org-content{
+  color: white;
+  line-height: 3em;
+  width: 70%;
+  padding: 200px auto;
+  margin: 0px auto;
+}
+
+.sign-org-button{
+  background-color: rgb(203, 56, 55);
+  color: white;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1em;
+  display: block;
+  width: 120px;
+  margin: 30px auto 0px 650px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+}
+
+.learn-link{
+  background-color: rgb(39, 53, 71);
+  color: white;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  margin: 0 auto 80px 630px;
+  padding: 10px 15px 10px 15px;
+}
+
+.npm-is{
+  background-image: url('/home/ro/prework/Modulo3/lab-html-module-exercise-master/starter-code/images/forklift.svg');
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top:-100px;
+  height: 100%;
+  width: 100%;
+}
+
+.npm-cont{
+  color: white;
+  width: 30%;
+  height: auto;
+  padding: 150px 0 150px 100px;
+  margin: 0;
+  border: 0;
+}
+
+.install-button{
+  background-color: rgb(49, 68, 88);
+  color: white;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 120px;
+  margin: 20px auto 0px 0;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+}
+
+.what-txt{
+  width: 100%;
+  margin: 0 auto 100px auto;
+  text-align: center;
+  padding: 0;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto 30px auto;
+  padding: 0;
+  text-align: center;
+}
+
+.container h3{
+  margin: 20px auto;
+}
+
+.col{
+  float: left;
+}
+
+.col-3{
+  width: 30%;
+}
+
+.col-middle{
+  margin: 0 5%;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.link-red{
+  text-decoration: none;
+  color: red;
+}
